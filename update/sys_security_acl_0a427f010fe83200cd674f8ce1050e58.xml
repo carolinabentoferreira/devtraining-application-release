@@ -3,11 +3,15 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
+        <applies_to/>
         <condition/>
+        <decision_type>allow</decision_type>
         <description>Default access control on x_58872_needit_needit</description>
+        <local_or_existing/>
         <name>x_58872_needit_needit</name>
         <operation display_value="read">read</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-24 22:46:34</sys_created_on>
@@ -22,4 +26,15 @@
         <sys_updated_on>2017-01-24 22:46:34</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>0a427f010fe83200cd674f8ce1050e58</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-17 11:33:51</sys_created_on>
+        <sys_id>ebf3745183f31210f9f3c396feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-17 11:33:51</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
